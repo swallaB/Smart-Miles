@@ -10,7 +10,7 @@ import DispatcherProfiles from "./pages/DispatcherProfile";
 export default function App() {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
